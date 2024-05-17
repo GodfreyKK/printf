@@ -8,7 +8,7 @@ int pr_str(char *s)
 {
 	unsigned int count = 0;
 
-	for (count = 0; s[count != '\0']; count++)
+	for (count = 0; s[count] != '\0'; count++)
 	{
 		pr_char(s[count]);
 
