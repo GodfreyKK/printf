@@ -33,6 +33,10 @@ int _printf(const char *format, ...)
 						slen = pr_str(str);
 						count += slen;
 					}
+					else 
+					{
+						count += pr_str("(null)");
+					}
 					break;
 				case '%':
 					pr_char('%');
